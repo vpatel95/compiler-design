@@ -34,13 +34,6 @@ void seperate_file(char *str) {
 			outC<<data<<" ";
 		}
 	}
-	/*for(j=0;j<i;j++) {
-		if(a[j] == 'a' || a[j] == 'e' || a[j] == 'i' || a[j] == 'o' || a[j] == 'u') {
-			outV<<a[j]<<" ";
-		} else {
-			outC<<a[j]<<" ";
-		}
-	}*/
 }
 
 void delete_file(char *str) {
