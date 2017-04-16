@@ -61,8 +61,9 @@ void addprod(char *s){
     int i;
     prod[count][0] = s[0];
     for(i=3;s[i]!='\0';i++){
-        if(!IsCap(s[i]))add(ter,s[i]);
-            prod[count][i-2] = s[i];
+        if(!IsCap(s[i]))
+            add(ter,s[i]);
+        prod[count][i-2] = s[i];
     }
     prod[count][i-2] = '\0';
     add(nt,s[0]);
